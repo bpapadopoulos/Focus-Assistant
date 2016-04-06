@@ -1,0 +1,36 @@
+E:\!Downloads\CanonCameraApp\CanonCameraAppLib\bin\Debug\DPPDLL.dll
+E:\!Downloads\CanonCameraApp\CanonCameraAppLib\bin\Debug\MLib.dll
+E:\!Downloads\CanonCameraApp\CanonCameraAppLib\bin\Debug\DPPLibCom.dll
+E:\!Downloads\CanonCameraApp\CanonCameraAppLib\bin\Debug\DPPRSC.dll
+E:\!Downloads\CanonCameraApp\CanonCameraAppLib\bin\Debug\EDSDK.dll
+E:\!Downloads\CanonCameraApp\CanonCameraAppLib\bin\Debug\EdsImage.dll
+E:\!Downloads\CanonCameraApp\CanonCameraAppLib\bin\Debug\Ucs32P.dll
+E:\!Downloads\CanonCameraApp\CanonCameraAppLib\bin\Debug\CanonCameraAppLib.dll
+E:\!Downloads\CanonCameraApp\CanonCameraAppLib\bin\Debug\CanonCameraAppLib.pdb
+E:\!Downloads\CanonCameraApp\CanonCameraAppLib\obj\Debug\ResolveAssemblyReference.cache
+E:\!Downloads\CanonCameraApp\CanonCameraAppLib\obj\Debug\CanonCameraAppLib.dll
+E:\!Downloads\CanonCameraApp\CanonCameraAppLib\obj\Debug\CanonCameraAppLib.pdb
+E:\Visual Studio Projects\Birger Rack Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\bin\Debug\DPPDLL.dll
+E:\Visual Studio Projects\Birger Rack Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\bin\Debug\MLib.dll
+E:\Visual Studio Projects\Birger Rack Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\bin\Debug\DPPLibCom.dll
+E:\Visual Studio Projects\Birger Rack Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\bin\Debug\DPPRSC.dll
+E:\Visual Studio Projects\Birger Rack Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\bin\Debug\EDSDK.dll
+E:\Visual Studio Projects\Birger Rack Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\bin\Debug\EdsImage.dll
+E:\Visual Studio Projects\Birger Rack Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\bin\Debug\Ucs32P.dll
+E:\Visual Studio Projects\Birger Rack Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\bin\Debug\CanonCameraAppLib.dll
+E:\Visual Studio Projects\Birger Rack Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\bin\Debug\CanonCameraAppLib.pdb
+E:\Visual Studio Projects\Birger Rack Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\obj\Debug\CanonCameraAppLib.dll
+E:\Visual Studio Projects\Birger Rack Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\obj\Debug\CanonCameraAppLib.pdb
+E:\Visual Studio Projects\Birger Rack Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\obj\Debug\CanonCameraAppLib.csprojResolveAssemblyReference.cache
+F:\!Visual Studio Projects\Focus Assistant\Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\bin\Debug\DPPDLL.dll
+F:\!Visual Studio Projects\Focus Assistant\Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\bin\Debug\MLib.dll
+F:\!Visual Studio Projects\Focus Assistant\Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\bin\Debug\DPPLibCom.dll
+F:\!Visual Studio Projects\Focus Assistant\Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\bin\Debug\DPPRSC.dll
+F:\!Visual Studio Projects\Focus Assistant\Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\bin\Debug\EDSDK.dll
+F:\!Visual Studio Projects\Focus Assistant\Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\bin\Debug\EdsImage.dll
+F:\!Visual Studio Projects\Focus Assistant\Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\bin\Debug\Ucs32P.dll
+F:\!Visual Studio Projects\Focus Assistant\Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\bin\Debug\CanonCameraAppLib.dll
+F:\!Visual Studio Projects\Focus Assistant\Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\bin\Debug\CanonCameraAppLib.pdb
+F:\!Visual Studio Projects\Focus Assistant\Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\obj\Debug\CanonCameraAppLib.csprojResolveAssemblyReference.cache
+F:\!Visual Studio Projects\Focus Assistant\Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\obj\Debug\CanonCameraAppLib.dll
+F:\!Visual Studio Projects\Focus Assistant\Focus Assistant\Birger Rack Focus Assistant\CanonCameraAppLib\obj\Debug\CanonCameraAppLib.pdb

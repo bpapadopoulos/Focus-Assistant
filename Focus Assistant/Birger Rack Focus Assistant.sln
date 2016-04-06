@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Birger Rack Focus Assistant", "Birger Rack Focus Assistant\Birger Rack Focus Assistant.csproj", "{AA24DBF5-3F11-40FA-876F-011772CBF298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanonCameraAppLib", "Birger Rack Focus Assistant\CanonCameraAppLib\CanonCameraAppLib.csproj", "{108A47EB-28C5-4196-AA16-8488083EDE27}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://obabalola.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Birger\u0020Rack\u0020Focus\u0020Assistant\\Birger\u0020Rack\u0020Focus\u0020Assistant.csproj
+		SccProjectName1 = Birger\u0020Rack\u0020Focus\u0020Assistant
+		SccLocalPath1 = Birger\u0020Rack\u0020Focus\u0020Assistant
+		SccProjectUniqueName2 = Birger\u0020Rack\u0020Focus\u0020Assistant\\CanonCameraAppLib\\CanonCameraAppLib.csproj
+		SccProjectName2 = Birger\u0020Rack\u0020Focus\u0020Assistant/CanonCameraAppLib
+		SccLocalPath2 = Birger\u0020Rack\u0020Focus\u0020Assistant\\CanonCameraAppLib
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA24DBF5-3F11-40FA-876F-011772CBF298}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{AA24DBF5-3F11-40FA-876F-011772CBF298}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{AA24DBF5-3F11-40FA-876F-011772CBF298}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{AA24DBF5-3F11-40FA-876F-011772CBF298}.Debug|x86.ActiveCfg = Debug|x86
+		{AA24DBF5-3F11-40FA-876F-011772CBF298}.Debug|x86.Build.0 = Debug|x86
+		{AA24DBF5-3F11-40FA-876F-011772CBF298}.Release|Any CPU.ActiveCfg = Release|x86
+		{AA24DBF5-3F11-40FA-876F-011772CBF298}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{AA24DBF5-3F11-40FA-876F-011772CBF298}.Release|Mixed Platforms.Build.0 = Release|x86
+		{AA24DBF5-3F11-40FA-876F-011772CBF298}.Release|x86.ActiveCfg = Release|x86
+		{AA24DBF5-3F11-40FA-876F-011772CBF298}.Release|x86.Build.0 = Release|x86
+		{108A47EB-28C5-4196-AA16-8488083EDE27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{108A47EB-28C5-4196-AA16-8488083EDE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{108A47EB-28C5-4196-AA16-8488083EDE27}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{108A47EB-28C5-4196-AA16-8488083EDE27}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{108A47EB-28C5-4196-AA16-8488083EDE27}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{108A47EB-28C5-4196-AA16-8488083EDE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{108A47EB-28C5-4196-AA16-8488083EDE27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{108A47EB-28C5-4196-AA16-8488083EDE27}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{108A47EB-28C5-4196-AA16-8488083EDE27}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{108A47EB-28C5-4196-AA16-8488083EDE27}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

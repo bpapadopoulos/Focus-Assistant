@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AA24DBF5-3F11-40FA-876F-011772CBF298}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Birger_Rack_Focus_Assistant</RootNamespace>
+    <AssemblyName>Birger Rack Focus Assistant</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="InputSimulator">
+      <HintPath>InputSimulator.0.1.0.0-bin\Release\InputSimulator.dll</HintPath>
+    </Reference>
+    <Reference Include="ManagedWinapi">
+      <HintPath>ManagedWinAPI\ManagedWinapi.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="At90Usb.cs" />
+    <Compile Include="Benchmark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Benchmark.Designer.cs">
+      <DependentUpon>Benchmark.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DSLRCalibration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DSLRCalibration.Designer.cs">
+      <DependentUpon>DSLRCalibration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EncoderItem.cs" />
+    <Compile Include="EncoderItemList.cs" />
+    <Compile Include="FocusMove.cs" />
+    <Compile Include="FocusMoveList.cs" />
+    <Compile Include="FocusAssistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FocusAssistant.Designer.cs">
+      <DependentUpon>FocusAssistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LensPlayCompensation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LensPlayCompensation.Designer.cs">
+      <DependentUpon>LensPlayCompensation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logger.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RangeFinder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RangeFinder.Designer.cs">
+      <DependentUpon>RangeFinder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BirgerSerial.cs" />
+    <Compile Include="SonarRangeFinder.cs" />
+    <EmbeddedResource Include="Benchmark.resx">
+      <DependentUpon>Benchmark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DSLRCalibration.resx">
+      <DependentUpon>DSLRCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FocusAssistant.resx">
+      <DependentUpon>FocusAssistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LensPlayCompensation.resx">
+      <DependentUpon>LensPlayCompensation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RangeFinder.resx">
+      <DependentUpon>RangeFinder.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="CanonCameraAppLib\CanonCameraAppLib.csproj">
+      <Project>{108A47EB-28C5-4196-AA16-8488083EDE27}</Project>
+      <Name>CanonCameraAppLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\VVVV.EDSDK.2.14.0.1\build\net40\VVVV.EDSDK.targets" Condition="Exists('..\packages\VVVV.EDSDK.2.14.0.1\build\net40\VVVV.EDSDK.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\VVVV.EDSDK.2.14.0.1\build\net40\VVVV.EDSDK.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\VVVV.EDSDK.2.14.0.1\build\net40\VVVV.EDSDK.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Reference Include="Canon.Eos.Framework">
+      <HintPath>$(MSBuildThisFileDirectory)\lib\Canon.Eos.Framework.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup> 
+  	<EdsdkBins Include="$(MSBuildThisFileDirectory)\edsdk\$(Platform)\*.dll" />
+    <IccProfiles Include="$(MSBuildThisFileDirectory)\edsdk\$(Platform)\icc\*.*" />
+  </ItemGroup>
+
+  <Target Name="BeforeBuild">
+    <Copy SourceFiles="@(EdsdkBins)" DestinationFolder="$(OutputPath)\Dependencies\EDSDK\$(Platform)" ContinueOnError="true" SkipUnchangedFiles="true"/>
+    <Copy SourceFiles="@(IccProfiles)" DestinationFolder="$(OutputPath)\Dependencies\EDSDK\$(Platform)\icc" ContinueOnError="true" SkipUnchangedFiles="true"/>
+  </Target>
+</Project>
